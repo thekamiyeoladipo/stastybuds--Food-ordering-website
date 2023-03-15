@@ -1,0 +1,157 @@
+@media (max-width: 1024px) {
+    /* About section  */
+}
+
+
+
+@media (max-width: 991px) {
+    /* Custom classes   */
+    .text-content {
+        width: 100%; 
+    } 
+
+
+    /* Navbar */
+
+    .navigation-wrap .navbar-brand img{
+        height: 3rem;
+        margin-left: 10px;
+    }
+
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--bs-white);
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+    }
+
+
+    /* Bannner   */
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+
+
+    .main-btn {
+        margin-right: 15px;
+    }
+
+    /* Carousel Design  */
+    .testimonial-section .carousel-item .carousel-caption p {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    /*  Newsletter */
+    .newsletter {
+        width: 75%;
+    } 
+    .newsletter .main-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    /* Custom CSS  */
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    /* Navbar */
+    
+    .navigation-wrap .navbar-brand img{
+        height: 2.5rem;
+    }
+
+    /*  Top-banner */ 
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+        url(../img/bg/pexels-monstera-7144362.jpg);
+        background-size: cover;
+    }
+
+    .top-banner h1 {
+        text-align: center;
+    }
+
+    .top-banner p {
+        color: var(--bs-white);
+    }
+
+    #hero-h2 {
+        color: var(--bs-white) !important;
+    }
+
+    .about-section {
+        text-align: center;
+        padding-top: 8rem;
+        padding-bottom: 0;
+
+    }
+
+    .food-type ul li::before {
+        left: 5.1875rem;
+    }
+
+    .parting {
+        margin-top: 2.575rem;
+        display: block;
+    }
+
+  
+
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .explore {
+        text-align: center;
+    
+    }
+
+    .testimonial-section {
+        height: auto;
+    }
+
+
+    .testimonial-section .carousel-item {
+        padding: 11rem 3.125rem;
+
+    }
+
+    .newsletter .form-control {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer .footer-link,
+    .footer a i {
+        padding: 0 0.7rem;
+    }
+    
+
+
+
+}
+
+
+@media (max-width: 330px) {
+    .testimonial-section .carousel-item {
+        padding: 13rem 3.125rem;
+    }
+    
+}
